@@ -6,25 +6,32 @@
   </head>
   <body>
     <!-- Make this a *semantic and valid* navigation! -->
-    <ul>
-      <li href="#products"> Products </li>
-      <li href="#Settings"> Settings </li>
-      <li href="#RSS"> RSS </li>
-    </ul>
+
+    <nav>
+      <ul>
+        <a href="#products"> Go to Products </a>
+        <a href="#Settings"> Go to Settings </a>
+        <a href="#RSS"> View RSS feed </a>
+      </ul>
+    </nav>
+
 
     <!-- Make this a *semantic and valid* form -->
-    <input type="text" name="name" value="" placeholder="name">
-    <input type="text" name="password" value="" placeholder="password">
-    <input type="submit" value="sign in">
+    <form class="" action="index.html" method="post">
+      
+      <input type="text" name="name" value="text" placeholder="name">
+      <input type="text" name="password" value="text" placeholder="password">
+      <input type="submit" value="sign in">
+    </form>
 
     <!-- Make this structure match the type of content shown  -->
-    <table>
-      <tr>
-        <td> 101 ways to make better coffee </td>
-        <td> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in. </td>
-        <td href="#link_to_article"> Read More </td>
-      </tr>
-    </table>
+    <article>
+
+        <h2> 101 ways to make better coffee <h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in. </p>
+        <a href="#link_to_article"> Read More</a>
+
+    </article>
 
   </body>
 </html>
